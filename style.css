@@ -1,0 +1,13 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+  
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    color: blue;
+}
+ h1{
+     color: blueviolet;
+ }
