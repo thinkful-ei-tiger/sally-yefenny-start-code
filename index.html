@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sally curriculum</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" type="text/css" href="/style.css" />
 </head>
 <body>
     <div id="application-root"></div>
@@ -21,7 +21,6 @@
 </script>
 <script type="text/babel">
   // Our code will go here
-
   const appRoot = document.querySelector('#application-root');
 
   function App() {
@@ -36,8 +35,9 @@
                 <p>Hi I'm Sally I'm 25 and below this line you'll find more information about me.</p>
             </section>
             <br/>
-            <section id="Education">
-                <p>I have studied at:</p>
+            <section id="education">
+                <h2>Education</h2>
+              
                 <ul>
                     <li>IES BEZMILIANA</li>
                     <li>Minnesota University</li>
@@ -45,7 +45,7 @@
             </section>
             <br/>
             <section id="works">
-                <p>I have worked at:</p>
+                <h2>Work experience:</h2>
                 <div id="works_list">
                     <ul>
                         <li>Github as Engineer during 2018 and there I have to Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -57,11 +57,11 @@
             </section>
             <br/>
             <section id="Contact-section">
-                <p>My contact information: </p>
+                <h2>Contact information: </h2>
                 <address id="Contact-info">
                     <p>My name is Sally</p>
-                    <p>My email is: <a href="mailto://sally@IntenetExplorer.old">sally@IntenetExplorer.old</a></p>
-                    <p>My phone number is: <a href="tel:+34100572415">+34 100 57 24 15</a></p>
+                    <p> Email : <a href="mailto://sally@IntenetExplorer.old">sally@IntenetExplorer.old</a></p>
+                    <p>Phone number: <a href="tel:+34100572415">+34 100 57 24 15</a></p>
                 </address>
             </section>
           </main>
