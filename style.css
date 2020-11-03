@@ -10,7 +10,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0px auto;
     font-weight: 400;
 }
 
@@ -32,7 +31,6 @@ img{
 }
 
 #introduction{
-    font-size: 18px;
     font-weight: 600;
     font-style: italic;
     color: #8f9491;
@@ -82,7 +80,41 @@ ul li {
 }
 
 
+@media all and (min-width: 600px){
 
+    body {
+        font-size: 20px;
+    }
+    .section{
+        padding: 30px 300px;
+        align-content: center;
+    }
+
+
+    h1{
+        font-size: 48px;
+        flex: 3;
+        align-self: center;
+    }
+   img{
+       flex: 1;
+       height: 250px;
+   }
+
+   .item-2{
+       display: flex;
+   }
+
+   #education{
+       flex: 2;
+   }
+
+   #works{
+       flex:1;
+       background-color: #724653;
+       color: #F3EAF4;
+   }
+}
 
 
 
